@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# KiranaFresh - Grocery Delivery PWA
 
-## Project info
+A production-ready mobile-first Progressive Web App for local Kirana shops and dairy products delivery, inspired by Zepto/Instamart.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Features
 
-## How can I edit this code?
+### Customer Features
+- **OTP-based Authentication** - Secure mobile login
+- **Location-based Stores** - Find nearby kirana shops
+- **Product Browsing** - Categories, search, filters
+- **Shopping Cart** - Add, update, remove items
+- **Address Management** - Save multiple delivery addresses
+- **Order Placement** - COD & UPI payment options
+- **Order Tracking** - Real-time status updates
+- **Order History** - View past orders
 
-There are several ways of editing your application.
+### Technical Features
+- **PWA Support** - Installable on mobile devices
+- **Responsive Design** - Mobile-first approach
+- **State Management** - Zustand with persistence
+- **TypeScript** - Full type safety
+- **Animations** - Smooth Framer Motion transitions
 
-**Use Lovable**
+## 📱 Screens
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+1. Login Screen - Phone number input
+2. OTP Screen - Verification code entry
+3. Home Screen - Categories, banners, products
+4. Search Screen - Product search
+5. Category Screen - Products by category
+6. Cart Screen - Shopping cart
+7. Checkout Screen - Address & payment selection
+8. Order Success - Confirmation with confetti
+9. Orders Screen - Order history
+10. Profile Screen - User settings
+11. Addresses Screen - Manage addresses
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tech Stack
 
-**Use your preferred IDE**
+- React 18 + TypeScript
+- Vite (Build tool)
+- Tailwind CSS (Styling)
+- Framer Motion (Animations)
+- Zustand (State management)
+- React Router (Navigation)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Backend Requirements
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+See `backend-specs/` folder for:
+- `database-schema.sql` - Complete MySQL schema
+- `API-DOCUMENTATION.md` - Full REST API specs
 
-Follow these steps:
+## 🔧 Setup
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🔑 Environment Variables
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```env
+VITE_API_URL=http://localhost:5000/api
+```
 
-**Use GitHub Codespaces**
+## 📄 Demo
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Use OTP: **1234** for demo login
 
-## What technologies are used for this project?
+---
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Built with ❤️ for local Kirana stores
